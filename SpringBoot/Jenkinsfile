@@ -4,7 +4,7 @@ node{
     }
     stage('Compile-package'){
          def mvnHome = tool name: 'MAVEN_HOME', type: 'maven';
-         bat "${mvnHome}/bin/mvn package"
+        bat "mvn package ${C:\\Program Files (x86)\\Jenkins\workspace\\springboot1\\}"
     }
     
 }
